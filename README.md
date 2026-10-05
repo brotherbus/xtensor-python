@@ -165,7 +165,7 @@ It produces a project following the best practices for the packaging and distrib
 Testing `xtensor-python` requires `pytest`
 
   ``` bash
-  py.test .
+  pytest .
   ```
 
 To pick up changes in `xtensor-python` while rebuilding, delete the `build/` directory.
